@@ -1,6 +1,6 @@
 <!-- perfil de Matheus — dev que faz sites e apps -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:140f2e,35:7c3aed,100:a78bfa&text=Matheus%20Santana&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=%F0%9F%87%A7%F0%9F%87%B7%20dev%20full-stack%20%E2%80%A2%20sites%20%26%20apps&descAlignY=55&descSize=18" width="100%">
+  <img src="assets/banner.svg" width="100%">
 </p>
 
 <p align="center">
@@ -55,6 +55,6 @@ Membro do **[Dev Legends](https://github.com/Devlegendsprime)** — squad de 3 d
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=90&color=0:a78bfa,35:7c3aed,100:140f2e&section=footer" width="100%">
+  <img src="assets/footer.svg" width="100%">
 </p>
 <p align="center"><sub>feito à mão em Brasília 💜</sub></p>
