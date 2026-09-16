@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="854" height="16" viewBox="0 0 854 16" role="img" aria-label="divisor">
+  <defs>
+    <linearGradient id="dlinha" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#7c3aed" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="27" y="7" width="800" height="2" rx="1" fill="url(#dlinha)"/>
+  <circle cx="120" cy="8" r="1.2" fill="#d6d2f5">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="3.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="427" cy="8" r="1.6" fill="#ffffff">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="740" cy="8" r="1.2" fill="#d6d2f5">
+    <animate attributeName="opacity" values="0.25;1;0.25" dur="4.1s" begin="0.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3" fill="#ffffff" opacity="0.9">
+    <animateMotion path="M 30,8 L 824,8" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.08;0.92;1" dur="7s" repeatCount="indefinite"/>
+  </circle>
+</svg>
