@@ -1,36 +1,103 @@
-<svg width="854" height="200" viewBox="0 0 854 200" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="854" height="200" viewBox="0 0 854 200" role="img" aria-label="Matheus — dev full-stack">
+  <!-- céu noturno de Brasília (v2 — sem ondas: skyline + estrelas animadas) -->
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#140f2e"/>
-      <stop offset="0.55" stop-color="#2a1b5e"/>
-      <stop offset="1" stop-color="#3b1d63"/>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b0820"/>
+      <stop offset="0.55" stop-color="#17103d"/>
+      <stop offset="1" stop-color="#241a5e"/>
+      <animate attributeName="x1" values="0;0.06;0" dur="14s" repeatCount="indefinite"/>
     </linearGradient>
-    <linearGradient id="w1" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#7c3aed" stop-opacity="0.85"/>
-      <stop offset="1" stop-color="#a78bfa" stop-opacity="0.55"/>
+    <radialGradient id="aurora" cx="0.3" cy="0.05" r="0.8">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity="0.5">
+        <animate attributeName="stop-opacity" values="0.5;0.24;0.5" dur="9s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="luar" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="0.55" stop-color="#d6d2f5" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#d6d2f5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="nome" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.55" stop-color="#e6e0ff"/>
+      <stop offset="1" stop-color="#b79bff"/>
+      <animate attributeName="x1" values="0;0.5;0" dur="12s" repeatCount="indefinite"/>
     </linearGradient>
-    <linearGradient id="w2" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#21bfae" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#7c3aed" stop-opacity="0.45"/>
-    </linearGradient>
-    <linearGradient id="w3" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#a78bfa" stop-opacity="0.5"/>
-      <stop offset="1" stop-color="#ff8fab" stop-opacity="0.3"/>
+    <linearGradient id="chao" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0720"/>
+      <stop offset="1" stop-color="#060414"/>
     </linearGradient>
   </defs>
 
-  <rect width="854" height="200" fill="url(#bg)"/>
-  <circle cx="770" cy="36" r="46" fill="#7c3aed" opacity="0.16"/>
-  <circle cx="94" cy="28" r="30" fill="#21bfae" opacity="0.12"/>
-  <path d="M427 26l4.6 13.4L445 44l-13.4 4.6L427 62l-4.6-13.4L409 44l13.4-4.6z" fill="#a78bfa" opacity="0.9"/>
-  <path d="M398 50l2.3 6.7L407 59l-6.7 2.3L398 68l-2.3-6.7L389 59l6.7-2.3z" fill="#ffd76b" opacity="0.8"/>
+  <rect width="854" height="200" fill="url(#ceu)"/>
+  <rect width="854" height="200" fill="url(#aurora)"/>
 
-  <text x="427" y="96" text-anchor="middle" fill="#ffffff" font-size="44" font-weight="800" letter-spacing="-1">Matheus Santana</text>
-  <text x="427" y="126" text-anchor="middle" fill="#b7acff" font-size="15.5" font-weight="500">🇧🇷 dev full-stack • sites &amp; apps • feito à mão</text>
+  <!-- lua com brilho pulsante -->
+  <circle cx="128" cy="52" r="34" fill="url(#luar)">
+    <animate attributeName="r" values="34;37;34" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="128" cy="52" r="15" fill="#f4f1ff"/>
 
-  <!-- ondinhas -->
-  <path d="M0 148 C 142 128, 284 172, 427 152 C 570 132, 712 176, 854 150 L 854 200 L 0 200 Z" fill="url(#w1)" opacity="0.75"/>
-  <path d="M0 166 C 160 146, 320 188, 470 168 C 620 148, 740 186, 854 170 L 854 200 L 0 200 Z" fill="url(#w2)" opacity="0.7"/>
-  <path d="M0 182 C 180 166, 340 198, 520 184 C 680 172, 770 196, 854 186 L 854 200 L 0 200 Z" fill="url(#w3)" opacity="0.75"/>
-  <path d="M0 192 C 200 180, 380 202, 560 192 C 700 184, 780 200, 854 194 L 854 200 L 0 200 Z" fill="#140f2e" opacity="0.55"/>
+  <!-- estrelas piscando -->
+  <g fill="#ffffff">
+    <circle cx="240" cy="34" r="1.6"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="318" cy="66" r="1.1"><animate attributeName="opacity" values="1;0.1;1" dur="4.2s" repeatCount="indefinite"/></circle>
+    <circle cx="404" cy="26" r="1.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.7s" begin="0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="486" cy="52" r="1"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.8s" begin="1.1s" repeatCount="indefinite"/></circle>
+    <circle cx="556" cy="30" r="1.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.4s" begin="0.3s" repeatCount="indefinite"/></circle>
+    <circle cx="640" cy="64" r="1.1"><animate attributeName="opacity" values="1;0.15;1" dur="4.6s" begin="1.4s" repeatCount="indefinite"/></circle>
+    <circle cx="706" cy="24" r="1.3"><animate attributeName="opacity" values="0.25;1;0.25" dur="2.9s" begin="0.9s" repeatCount="indefinite"/></circle>
+    <circle cx="780" cy="46" r="1.6"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.6s" begin="0.2s" repeatCount="indefinite"/></circle>
+    <circle cx="828" cy="78" r="1"><animate attributeName="opacity" values="0.5;1;0.5" dur="4.1s" begin="1.7s" repeatCount="indefinite"/></circle>
+    <circle cx="286" cy="100" r="0.9"><animate attributeName="opacity" values="0.3;1;0.3" dur="5s" begin="0.8s" repeatCount="indefinite"/></circle>
+    <circle cx="668" cy="110" r="0.9"><animate attributeName="opacity" values="1;0.2;1" dur="3.3s" begin="1.9s" repeatCount="indefinite"/></circle>
+    <circle cx="178" cy="122" r="1"><animate attributeName="opacity" values="0.35;1;0.35" dur="4.4s" begin="1.2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- estrela cadente -->
+  <g opacity="0">
+    <line x1="0" y1="0" x2="26" y2="7" stroke="#ffffff" stroke-width="1.4" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="1.8" fill="#ffffff"/>
+    <animateMotion path="M 700,10 L 380,86" dur="2.6s" begin="2s;9s;17s" repeatCount="indefinite" rotate="auto"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.75;1" dur="2.6s" begin="2s;9s;17s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- skyline: Congresso Nacional (duas torres + cúpula + taça) -->
+  <g>
+    <ellipse cx="676" cy="176" rx="150" ry="26" fill="#7c3aed" opacity="0.12">
+      <animate attributeName="opacity" values="0.08;0.2;0.08" dur="6s" repeatCount="indefinite"/>
+    </ellipse>
+    <g fill="#0a0720">
+      <rect x="628" y="86" width="14" height="102" rx="7"/>
+      <rect x="712" y="86" width="14" height="102" rx="7"/>
+      <rect x="648" y="132" width="58" height="9" rx="4.5"/>
+      <path d="M 600 176 a 26 26 0 0 1 52 0 Z"/>
+      <path d="M 682 176 a 20 20 0 0 0 40 0 Z" transform="translate(0,-1) scale(1,-1) translate(-722,-352)"/>
+      <path d="M 682 152 a 20 20 0 0 1 40 0 Z"/>
+      <rect x="540" y="168" width="16" height="22" rx="2"/>
+      <rect x="562" y="176" width="12" height="14" rx="2"/>
+      <rect x="758" y="160" width="20" height="30" rx="2"/>
+      <rect x="784" y="170" width="14" height="20" rx="2"/>
+    </g>
+    <!-- luzinha nas torres piscando devagar -->
+    <circle cx="635" cy="92" r="1.6" fill="#b79bff">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="719" cy="92" r="1.6" fill="#b79bff">
+      <animate attributeName="opacity" values="1;0.2;1" dur="5.1s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <rect y="184" width="854" height="16" fill="url(#chao)"/>
+
+  <!-- nome -->
+  <text x="64" y="104" font-family="'Segoe UI', Arial, sans-serif" font-size="46" font-weight="800" fill="url(#nome)" letter-spacing="1">Matheus</text>
+  <text x="66" y="132" font-family="'Segoe UI', Arial, sans-serif" font-size="15.5" font-weight="600" fill="#cfc6f2" letter-spacing="2.2">DEV FULL-STACK · SITES &amp; APPS · BRASÍLIA-DF</text>
+  <g transform="translate(64,158)">
+    <rect width="270" height="7" rx="3.5" fill="#2a1e78"/>
+    <rect width="86" height="7" rx="3.5" fill="#7c3aed">
+      <animate attributeName="width" values="86;150;86" dur="6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 </svg>
