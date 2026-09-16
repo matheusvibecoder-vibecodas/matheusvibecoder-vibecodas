@@ -47,16 +47,38 @@ const matheus = {
 
 <img src="assets/divisor.svg" width="100%">
 
+## 📍 a jornada
+
+<p align="center">
+  <img src="assets/jornada.svg" width="100%">
+</p>
+
 ## 🚀 construindo agora
 
 **estuda+** — app de estudos com IA que eu construí inteiro, do servidor ao APK: **[abrir o app](https://estuda-mais-2fw8.onrender.com)**
 
 <p align="center">
-  <img src="https://img.shields.io/badge/vers%C3%B5es%20lan%C3%A7adas-55-7c3aed">
-  <img src="https://img.shields.io/badge/testes%20automatizados-290%2B-brightgreen">
-  <img src="https://img.shields.io/badge/depend%C3%AAncias-0-ff69b4">
-  <img src="https://img.shields.io/badge/atualiza%20sozinho-%F0%9F%93%A1-9d8bff">
+  <img src="assets/numeros.svg" width="100%">
 </p>
+<p align="center">
+  <img src="https://img.shields.io/badge/atualiza%20sozinho-%F0%9F%93%A1-9d8bff">
+  <img src="https://img.shields.io/badge/plataforma-Web%20%2B%20Android-22d3ee">
+</p>
+
+## 🤖 meu par de IA
+
+<p align="center">
+  <img src="assets/par-ia.svg" width="100%">
+</p>
+
+Esse é o combinado do meu jeito de codar: **eu decido a direção, o agente escreve o código, a assinatura é minha.** Ele não é autor — é par. E aceitou o posto de colaborador oficial deste perfil. 💜
+
+## 🎯 no radar
+
+- ✦ botar o **estuda+** na Play Store
+- ✦ soltar mais apps próprios, um por ideia boa
+- ✦ aprofundar em agentes de IA e automação
+- ✦ segurar o padrão: **zero dependência, teste antes de soltar**
 
 ## 🤝 Dev Legends
 
