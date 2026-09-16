@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="854" height="150" viewBox="0 0 854 150" role="img" aria-label="meu par de IA">
+  <defs>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#7c3aed" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="854" height="150" rx="16" fill="#0b0820"/>
+  <rect x="1.5" y="1.5" width="851" height="147" rx="15" fill="none" stroke="#2a1e78" stroke-width="1.5"/>
+  <!-- robô -->
+  <g transform="translate(62,34)">
+    <line x1="44" y1="0" x2="44" y2="-12" stroke="#7c3aed" stroke-width="3"/>
+    <circle cx="44" cy="-16" r="5" fill="#b79bff">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="4" y="0" width="80" height="62" rx="16" fill="#17103d" stroke="#7c3aed" stroke-width="2"/>
+    <ellipse cx="28" cy="26" rx="7" ry="7" fill="#ffffff">
+      <animate attributeName="ry" values="7;7;0.8;7" keyTimes="0;0.42;0.5;0.58" dur="4.4s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="60" cy="26" rx="7" ry="7" fill="#ffffff">
+      <animate attributeName="ry" values="7;7;0.8;7" keyTimes="0;0.42;0.5;0.58" dur="4.4s" repeatCount="indefinite"/>
+    </ellipse>
+    <path d="M 28 46 Q 44 54 60 46" stroke="#b79bff" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <rect x="-10" y="20" width="10" height="22" rx="5" fill="#7c3aed"/>
+    <rect x="88" y="20" width="10" height="22" rx="5" fill="#7c3aed"/>
+  </g>
+  <!-- texto -->
+  <text x="185" y="52" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="800" fill="#ffffff" letter-spacing="1">MEU PAR DE IA 🤖</text>
+  <text x="185" y="80" font-family="'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#cfc6f2">perfil e app mantidos por mim com o meu agente de IA no teclado —</text>
+  <text x="185" y="102" font-family="'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#cfc6f2">eu decido a direção, ele escreve o código, a assinatura é minha.</text>
+  <text x="185" y="128" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="700" fill="#b79bff" letter-spacing="1.2">VIBECODER E ASSUMO · DESDE 2025</text>
+  <!-- scanner varrendo o card -->
+  <rect width="90" height="150" fill="url(#scan)">
+    <animate attributeName="x" values="-90;854" dur="6.5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
