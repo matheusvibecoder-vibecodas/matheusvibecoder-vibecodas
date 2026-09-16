@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="854" height="96" viewBox="0 0 854 96" role="img" aria-label="a jornada">
+  <rect width="854" height="96" rx="16" fill="#0b0820"/>
+  <line x1="106" y1="46" x2="794" y2="46" stroke="#2a1e78" stroke-width="2"/>
+  <line x1="134" y1="46" x2="326" y2="46" stroke="#7c3aed" stroke-width="2" stroke-dasharray="192" stroke-dashoffset="192">
+    <animate attributeName="stroke-dashoffset" from="192" to="0" begin="0.5s" dur="0.7s" fill="freeze"/>
+  </line>  <line x1="354" y1="46" x2="546" y2="46" stroke="#7c3aed" stroke-width="2" stroke-dasharray="192" stroke-dashoffset="192">
+    <animate attributeName="stroke-dashoffset" from="192" to="0" begin="1.4s" dur="0.7s" fill="freeze"/>
+  </line>  <line x1="574" y1="46" x2="766" y2="46" stroke="#7c3aed" stroke-width="2" stroke-dasharray="192" stroke-dashoffset="192">
+    <animate attributeName="stroke-dashoffset" from="192" to="0" begin="2.3s" dur="0.7s" fill="freeze"/>
+  </line>
+  <g opacity="0">
+    <circle cx="120" cy="46" r="11" fill="#7c3aed" opacity="0.25">
+      <animate attributeName="r" values="11;15;11" dur="3s" begin="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="120" cy="46" r="6" fill="#ffffff"/>
+    <text x="120" y="24" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#ffffff">2025</text>
+    <text x="120" y="78" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#9d96d0">primeiras linhas</text>
+    <animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.4s" fill="freeze"/>
+  </g>  <g opacity="0">
+    <circle cx="340" cy="46" r="11" fill="#7c3aed" opacity="0.25">
+      <animate attributeName="r" values="11;15;11" dur="3s" begin="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="340" cy="46" r="6" fill="#ffffff"/>
+    <text x="340" y="24" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#ffffff">v1</text>
+    <text x="340" y="78" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#9d96d0">estuda+ no ar</text>
+    <animate attributeName="opacity" from="0" to="1" begin="1.3s" dur="0.4s" fill="freeze"/>
+  </g>  <g opacity="0">
+    <circle cx="560" cy="46" r="11" fill="#7c3aed" opacity="0.25">
+      <animate attributeName="r" values="11;15;11" dur="3s" begin="3.4000000000000004s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="560" cy="46" r="6" fill="#ffffff"/>
+    <text x="560" y="24" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#ffffff">55</text>
+    <text x="560" y="78" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#9d96d0">versões sozinho</text>
+    <animate attributeName="opacity" from="0" to="1" begin="2.2s" dur="0.4s" fill="freeze"/>
+  </g>  <g opacity="0">
+    <circle cx="780" cy="46" r="11" fill="#7c3aed" opacity="0.25">
+      <animate attributeName="r" values="11;15;11" dur="3s" begin="4.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="780" cy="46" r="6" fill="#ffffff"/>
+    <text x="780" y="24" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" fill="#ffffff">2026</text>
+    <text x="780" y="78" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#9d96d0">rumo à Play Store</text>
+    <animate attributeName="opacity" from="0" to="1" begin="3.1s" dur="0.4s" fill="freeze"/>
+  </g>
+  <circle r="3" fill="#d6d2f5" opacity="0.9">
+    <animateMotion path="M 106,46 L 794,46" dur="8s" begin="4.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.05;0.95;1" dur="8s" begin="4.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>
