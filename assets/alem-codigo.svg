@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="854" height="150" viewBox="0 0 854 150" role="img" aria-label="além do código — desenho, design e cor">
+  <!-- v4: além do código — o lápis desenha o traço enquanto a paleta pulsa -->
+  <rect width="854" height="150" rx="16" fill="#0b0820"/>
+
+  <text x="40" y="52" font-family="'Segoe UI', Arial, sans-serif" font-size="21" font-weight="800" fill="#ffffff">além do código</text>
+  <text x="40" y="76" font-family="'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#9d96d0">desenho · design · identidade · cor — desde antes da primeira linha</text>
+
+  <!-- traço sendo desenhado (o lápis percorre o mesmo caminho, sincronizados no mesmo ciclo de 8s) -->
+  <path d="M 60,108 q 45,-34 90,0 t 90,0 t 90,0" fill="none" stroke="#7c3aed" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="330" stroke-dashoffset="330">
+    <animate attributeName="stroke-dashoffset" values="330;0;0" keyTimes="0;0.75;1" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;1;0" keyTimes="0;0.75;0.94;1" dur="8s" repeatCount="indefinite"/>
+  </path>
+  <g opacity="0">
+    <polygon points="0,0 -14,-5 -14,5" fill="#e6d29a"/>
+    <polygon points="0,0 -5,-1.8 -5,1.8" fill="#20242a"/>
+    <rect x="-58" y="-5" width="44" height="10" rx="2" fill="#f6a84a"/>
+    <rect x="-70" y="-5.5" width="12" height="11" rx="3" fill="#ed7198"/>
+    <animateMotion path="M 60,108 q 45,-34 90,0 t 90,0 t 90,0" dur="8s" repeatCount="indefinite" rotate="auto"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.06;0.92;1" dur="8s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- gotas de tinta pulsando em sequência -->
+  <circle cx="580" cy="104" r="7" fill="#ed7198">
+    <animate attributeName="r" values="7;11;7" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="632" cy="104" r="7" fill="#21bfae">
+    <animate attributeName="r" values="7;11;7" dur="2.4s" begin="0.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="684" cy="104" r="7" fill="#f6a84a">
+    <animate attributeName="r" values="7;11;7" dur="2.4s" begin="1.6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- paleta com pontinha de estrela -->
+  <g>
+    <rect x="742" y="82" width="76" height="44" rx="12" fill="#181430" stroke="#2a1e78" stroke-width="1.5"/>
+    <circle cx="762" cy="104" r="5" fill="#7c3aed"/>
+    <circle cx="780" cy="104" r="5" fill="#ed7198">
+      <animate attributeName="fill" values="#ed7198;#f6a84a;#21bfae;#ed7198" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="798" cy="104" r="5" fill="#34d399">
+      <animate attributeName="opacity" values="1;0.35;1" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <text x="780" y="72" text-anchor="middle" font-size="15" fill="#b79bff">✦</text>
+  </g>
+</svg>
