@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="854" height="230" viewBox="0 0 854 230" role="img" aria-label="terminal do Matheus — quem é, como coda e o sonho">
+  <!-- v4: terminal animado self-hosted (substitui o serviço externo de typing — carrega sempre) -->
+  <defs>
+    <linearGradient id="tbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0f0d1c"/>
+      <stop offset="1" stop-color="#171331"/>
+    </linearGradient>
+    <clipPath id="tc1"><rect x="0" y="0" height="230"><animate attributeName="width" values="0;620;620" keyTimes="0;0.05;1" dur="17s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="tc2"><rect x="0" y="0" height="230"><animate attributeName="width" values="0;620;620" keyTimes="0;0.22;1" dur="17s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="tc3"><rect x="0" y="0" height="230"><animate attributeName="width" values="0;620;620" keyTimes="0;0.4;1" dur="17s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+
+  <rect width="854" height="230" rx="18" fill="url(#tbg)" stroke="#2a1e78" stroke-width="1.5"/>
+
+  <!-- barra do terminal -->
+  <rect width="854" height="34" rx="18" fill="#181430"/>
+  <rect y="17" width="854" height="17" fill="#181430"/>
+  <circle cx="24" cy="17" r="5.5" fill="#ed7198"/>
+  <circle cx="44" cy="17" r="5.5" fill="#f6a84a"/>
+  <circle cx="64" cy="17" r="5.5" fill="#34d399">
+    <animate attributeName="opacity" values="1;0.55;1" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="427" y="22" text-anchor="middle" font-family="'Cascadia Code', Consolas, monospace" font-size="12.5" fill="#9d96d0">matheus@brasilia: ~</text>
+
+  <!-- ciclo único de 17s: cada linha entra no seu tempo (keyTimes) e tudo recomeça sozinho -->
+  <g font-family="'Cascadia Code', Consolas, monospace" font-size="15.5">
+    <g clip-path="url(#tc1)">
+      <text x="34" y="66" fill="#34d399">$ <tspan fill="#e6e0ff">quem é o matheus?</tspan></text>
+    </g>
+    <g opacity="0">
+      <text x="52" y="94" fill="#b79bff">▸ brasiliense · desenha desde sempre · coda desde 2025</text>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.07;0.09;0.8;0.85;1" dur="17s" repeatCount="indefinite"/>
+    </g>
+    <g clip-path="url(#tc2)" opacity="0">
+      <text x="34" y="122" fill="#34d399">$ <tspan fill="#e6e0ff">como você programa?</tspan></text>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.16;0.18;0.8;0.85;1" dur="17s" repeatCount="indefinite"/>
+    </g>
+    <g opacity="0">
+      <text x="52" y="150" fill="#b79bff">▸ eu crio a ideia, a IA ajuda a construir ✦</text>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.26;0.28;0.8;0.85;1" dur="17s" repeatCount="indefinite"/>
+    </g>
+    <g clip-path="url(#tc3)" opacity="0">
+      <text x="34" y="178" fill="#34d399">$ <tspan fill="#e6e0ff">e o sonho?</tspan></text>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.36;0.38;0.8;0.85;1" dur="17s" repeatCount="indefinite"/>
+    </g>
+    <g opacity="0">
+      <text x="52" y="206" fill="#34d399">▸ meu app na Play Store — e viver criando tecnologia</text>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.46;0.48;0.8;0.85;1" dur="17s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- cursor piscando -->
+  <rect x="560" y="192" width="9" height="17" fill="#34d399">
+    <animate attributeName="opacity" values="1;0;1" dur="1.05s" repeatCount="indefinite"/>
+  </rect>
+</svg>
