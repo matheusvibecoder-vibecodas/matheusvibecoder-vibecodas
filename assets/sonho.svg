@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="854" height="170" viewBox="0 0 854 170" role="img" aria-label="o sonho — meu app na Play Store e viver criando tecnologia">
+  <!-- v4: o sonho — foguete rumo à Play Store (nave reutilizável: sobe, some, recomeça) -->
+  <defs>
+    <linearGradient id="scu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b0820"/>
+      <stop offset="1" stop-color="#241a5e"/>
+    </linearGradient>
+    <radialGradient id="pglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#34d399" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#34d399" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="854" height="170" rx="16" fill="url(#scu)"/>
+
+  <!-- estrelas -->
+  <g fill="#ffffff">
+    <circle cx="90" cy="30" r="1.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="230" cy="52" r="1.1"><animate attributeName="opacity" values="1;0.15;1" dur="4.1s" repeatCount="indefinite"/></circle>
+    <circle cx="388" cy="26" r="1.3"><animate attributeName="opacity" values="0.25;1;0.25" dur="2.8s" begin="0.5s" repeatCount="indefinite"/></circle>
+    <circle cx="520" cy="58" r="1"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.7s" repeatCount="indefinite"/></circle>
+    <circle cx="640" cy="22" r="1.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="830" cy="88" r="1.1"><animate attributeName="opacity" values="1;0.2;1" dur="4.4s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- badge Play Store com brilho pulsante -->
+  <circle cx="753" cy="50" r="46" fill="url(#pglow)">
+    <animate attributeName="r" values="40;52;40" dur="3.4s" repeatCount="indefinite"/>
+  </circle>
+  <g>
+    <rect x="690" y="28" width="126" height="44" rx="22" fill="#0f0d1c" stroke="#34d399" stroke-width="1.6"/>
+    <polygon points="714,40 714,60 732,50" fill="#34d399"/>
+    <text x="742" y="55" font-family="'Segoe UI', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#ffffff">Play Store</text>
+    <animate attributeName="opacity" values="1;0.75;1" dur="3.4s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- foguete: sobe, some no topo, recomeça (ciclo de 6s) -->
+  <g opacity="0">
+    <polygon points="-24,0 -13,-6 -13,6" fill="#ed7198"/>
+    <polygon points="-24,0 -13,-6 -13,6" fill="#ed7198" transform="rotate(180)"/>
+    <rect x="-14" y="-8" width="30" height="16" rx="8" fill="#f4f1ff"/>
+    <circle cx="4" cy="0" r="4" fill="#21bfae" stroke="#0f0d1c" stroke-width="1.5"/>
+    <polygon points="16,-8 28,0 16,8" fill="#ed7198"/>
+    <polygon points="-15,0 -27,-4 -23,0 -27,4" fill="#f6a84a">
+      <animate attributeName="opacity" values="1;0.4;1" dur="0.32s" repeatCount="indefinite"/>
+      <animate attributeName="points" values="-15,0 -27,-4 -23,0 -27,4; -15,0 -31,-2.5 -23,0 -31,2.5; -15,0 -27,-4 -23,0 -27,4" dur="0.32s" repeatCount="indefinite"/>
+    </polygon>
+    <animateMotion path="M 420,140 L 585,22" dur="6s" repeatCount="indefinite" rotate="auto"/>
+    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.08;0.78;0.97;1" dur="6s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- texto do sonho -->
+  <text x="40" y="136" font-family="'Segoe UI', Arial, sans-serif" font-size="19" font-weight="800" fill="#ffffff">o sonho: meu app na Play Store</text>
+  <text x="40" y="158" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#b79bff">— e viver criando tecnologia, um app por ideia boa ✦</text>
+</svg>
