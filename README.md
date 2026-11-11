@@ -1,4 +1,4 @@
-<!-- perfil de Matheus — v4: mais Matheus, mais animação (tudo self-hosted: carrega sempre) -->
+<!-- perfil de Matheus — v4.1 (+framezero): mais Matheus, mais animação (tudo self-hosted: carrega sempre) -->
 <p align="center">
   <img src="assets/banner.svg" width="100%">
 </p>
@@ -75,6 +75,17 @@ Antes de escrever a primeira linha, eu já criava: desenho, design, identidade, 
   <img src="https://img.shields.io/badge/plataforma-Web%20%2B%20Android-22d3ee">
 </p>
 
+**framezero** — meu primeiro projeto open source: o sistema que eu criei pra fazer os vídeos do estuda+ (HTML → vídeo 4K60 com música gerada por código), aberto pra qualquer dev e pra qualquer agente de IA usar: **[ver no GitHub](https://github.com/matheusvibecoder-vibecodas/framezero)** · **[site](https://matheusvibecoder-vibecodas.github.io/framezero/)**
+
+<p align="center">
+  <a href="https://github.com/matheusvibecoder-vibecodas/framezero"><img src="https://raw.githubusercontent.com/matheusvibecoder-vibecodas/framezero/main/media/social-preview.png" width="100%" alt="framezero — Your best frame is frame zero."></a>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/github/stars/matheusvibecoder-vibecodas/framezero?style=flat&color=FFC233&label=%E2%98%85%20stars">
+  <img src="https://img.shields.io/badge/licen%C3%A7a-MIT-6A4BFF">
+  <img src="https://img.shields.io/badge/feito%20pra-humanos%20%2B%20agentes%20de%20IA-13D18C">
+</p>
+
 ## 🤖 meu par de IA
 
 <p align="center">
@@ -92,6 +103,7 @@ Esse é o combinado do meu jeito de codar: **eu decido a direção, o agente esc
 - ✦ **estuda+ na Play Store** — meu app na loja oficial, chegando em todo mundo
 - ✦ **viver criando tecnologia** — transformar o que é diversão em profissão
 - ✦ soltar mais apps próprios, um por ideia boa
+- ✦ ver o **framezero** sendo usado por devs do mundo todo
 - ✦ segurar o padrão: **zero dependência, teste antes de soltar**
 
 ## 🤝 Dev Legends
